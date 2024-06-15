@@ -1,0 +1,150 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.search-box,
+.dropdown-box {
+  display: flex;
+  margin: 20px 0;
+}
+
+.search-box input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  flex: 1;
+  max-width: 300px;
+}
+
+.search-box button,
+.dropdown-box select {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 5%;
+}
+
+.search-box button:hover,
+.dropdown-box select:hover {
+  background-color: #21a1f1;
+}
+
+.toggle-btn {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.toggle-btn:hover {
+  background-color: #21a1f1;
+}
+
+.weather-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.weather-info {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.location {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+.condition,
+.description,
+.humidity,
+.wind,
+.datetime {
+  font-size: 1.2em;
+}
+
+.placeholder {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.error {
+  color: #ff4c4c;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #282c34;
+  color: white;
+}
+
+.dark-mode .App-header {
+  background-color: #282c34;
+  color: white;
+}
+
+/* Light Mode Styles */
+.light-mode {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.light-mode .App-header {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .search-box,
+  .dropdown-box {
+    flex-direction: column;
+ 
+  }
+}
