@@ -10,8 +10,7 @@ Technologies Used:
 Installation:
 To run this project locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/Keerthanakotla/weather-app.git
-2. Navigate into the project directory: cd weather-app
-3. Install dependencies: npm install
-4. Start the application: npm start
-5. Open your browser and visit http://localhost:3000
+1. Navigate into the project directory: cd weather-app
+2. Install dependencies: npm install
+3. Start the application: npm start
+4. Open your browser and visit http://localhost:3000
