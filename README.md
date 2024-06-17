@@ -1,5 +1,6 @@
 Weather Application:
-This project is a weather application developed as part of the hiring process for the Frontend Developer intern position. It utilizes the Open Weather API to fetch current weather information based on user input and includes additional features such as dark mode toggle and multiple locations display.
+
+A weather application built with React allows users to input a city name and instantly receive the current temperature and humidity for that location. The user interface is sleek and intuitive, providing an input field where users can type in the desired city's name. Upon submission, the application fetches real-time weather data from a reliable API, displaying the temperature , along with the humidity percentage.
 
 
 Technologies Used:
